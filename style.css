@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+body{
+    display:flex;
+     min-height:100vh;
+    /* background-color:lightgray;  */
+}
+.page-container{
+    background-color:pink;
+    min-height:100vh;
+    width:100%;
+}
+.header-section{
+    /* min-height:15vh; */
+    border:2px solid red;
+}
+
+.announcement{
+    height: 35px;
+    background-color:black;
+    color:white;
+
+  }
+
+   .announcement__text p{
+    font-size: 11px;
+    line-height: 33px;
+    font-family: 'AvenirNextCyr-Medium';
+    text-align:center;
+   } 
+
+  .header{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    background:#fff;
+    padding:2rem 9%;
+    display:flex;
+    align-items:center ;
+justify-content: space-between;
+z-index: 1000;
+border:2px solid yellow;
+  }
+  .nav-bar a{
+    /* font-size:15px; */
+    padding:0 1.5rem;
+   color:black; 
+   
+  }
+  .section{
+   padding:2rem 9%;
+  }
+  .home{
+    display: flex;
+    text-align: center;
+    min-height: 100vh;
+    background:url(/assets/frstimg.png)no-repeat;
+    background-size:cover;
+    background-position:center;
+  }
+  .home .content{
+    max-width:50rem;
+  }
+  .home .content h3{
+    font-size:6rem;
+    color:#333
+    text-align:center;
+  }
